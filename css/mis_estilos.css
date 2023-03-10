@@ -34,8 +34,11 @@ a:active {
 
  .logo{
     border: 2px;
-    border-color: rgb(5, 5, 66) ;
+   /* border-color: rgb(5, 5, 66) ;*/
+    border-color: gray;
     border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
     height: 94px;
     width:  94px;
 
@@ -52,6 +55,15 @@ a:active {
     align-content: center;
     height: 108px;
 }
+
+.contenedor_header{
+
+background-color: gray;
+
+}
+
+
+
 .menu{
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
@@ -84,8 +96,9 @@ a:active {
     color:white;
     width: 345px;
     height:345px;
-    /*align-content: center;*/
-    padding: 4px;
+    padding: 2px;
+    align-content: center;
+    align-items: center;
     
 }
 
@@ -94,7 +107,18 @@ a:active {
     border-width: 1px;
     border-color:gray;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 10px;
+    height: 340px;
+    width: 340px;
+       
+}
+
+.img_productos_detalles{
+
+    border-width: 1px;
+    border-color:gray;
+    border-style: solid;
+    border-radius: 14px;
     height: 340px;
     width: 340px;
     align-items: center;   
@@ -145,6 +169,7 @@ a:active {
         border-radius: 20px;
         height: 340px;
         width: 340px;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
