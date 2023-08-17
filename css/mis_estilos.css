@@ -108,11 +108,21 @@ background-color: gray;
     border-color:gray;
     border-style: solid;
     border-radius: 10px;
-    height: 340px;
+    height: 380px;
     width: 340px;
        
 }
 
+.img_carousel{
+
+    border-width: 1px;
+    border-color:gray;
+    border-style: solid;
+    border-radius: 10px;
+    height: 340px;
+    width: 390px;
+       
+}
 .img_productos_detalles{
 
     border-width: 1px;
@@ -123,6 +133,9 @@ background-color: gray;
     width: 340px;
     align-items: center;   
 }
+
+
+
 
 .contenedor_footer{
  /*   display:flex;*/
