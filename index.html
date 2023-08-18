@@ -6,7 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>..::: MOUSE PAD :::..</title>
     <link rel="stylesheet" href="./css/mis_estilos.css" />
+<script>
 
+    //************CAMBIANDO IMAGEN PRINCIPAL CUANDO TIENE EL FOCO ***************/
+    const cambiarImagenOn = (id,img) =>{
+            
+            document.getElementById(id).src="./img/" + img;
+         };
+      
+        //************CAMBIANDO IMAGEN PRINCIPAL CUANDO PIERDE EL FOCO ***************/
+        const cambiarImagenOff = (id,img) =>{
+                  
+          document.getElementById(id).src="./img/" + img;
+       };
+    
+</script>
 </head>
 <body class="margenes">
    <header>
@@ -22,22 +36,38 @@
   
 
     <div class="card" style="width: 28rem;">
-        <img src="./img/producto1.jpg" class="card-img-top" alt="Mouse Pad">
-        <div class="card-body">
+        <img src="./img/producto2.jpg" 
+         class="card-img-top " 
+         alt="Mouse Pad" 
+         id="img_principal_1" 
+         onMouseOver="cambiarImagenOn('img_principal_1','producto3.jpg')"  
+         onMouseOut="cambiarImagenOff('img_principal_1','producto2.jpg')">
+        <div class="card-body fondo_card">
           <p class="card-text">Suave textura y posicion para la mu&ntilde;eca.</p>
         </div>
     </div>&nbsp;&nbsp;
 
     <div class="card" style="width: 28rem;">
-        <img src="./img/producto5.jpg" class="card-img-top" alt="Mouse Pad">
-        <div class="card-body">
+        <img src="./img/producto5.jpg" 
+        class="card-img-top" 
+        alt="Mouse Pad"
+        id="img_principal_2"
+        onMouseOver="cambiarImagenOn('img_principal_2','producto5_detalle1.jpg')"  
+        onMouseOut="cambiarImagenOff('img_principal_2','producto5.jpg')">
+        <div class="card-body fondo_card">
           <p class="card-text">Suave textura dise&ntilde;o estandar.</p>
         </div>
     </div>&nbsp;&nbsp;
 
     <div class="card" style="width: 28rem;">
-        <img src="./img/producto6.jpg" class="card-img-top" alt="Mouse Pad">
-        <div class="card-body">
+        <img src="./img/producto6.jpg" 
+        class="card-img-top" 
+        alt="Mouse Pad"
+        id="img_principal_3"
+        onMouseOver="cambiarImagenOn('img_principal_3','producto6_detalle1.jpg')"  
+        onMouseOut="cambiarImagenOff('img_principal_3','producto6.jpg')"
+        >
+        <div class="card-body fondo_card">
           <p class="card-text">Suave textura ideal para desarrolladores de software y dise&ntilde;adores gr&aacute;ficos..</p>
         </div>
     </div>

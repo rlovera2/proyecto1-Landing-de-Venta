@@ -80,11 +80,10 @@ background-color: gray;
 
 
 .contenedor{
-
     display: flex;
     justify-content:space-evenly;
     padding: 10px;
-    align-content: center;
+    align-content:space-between;
     align-items: center; 
     height: auto;
     width: auto;
@@ -107,7 +106,7 @@ background-color: gray;
     border-width: 1px;
     border-color:gray;
     border-style: solid;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     height: 380px;
     width: 340px;
        
@@ -167,6 +166,11 @@ background-color: gray;
  align-content: center;      
 }
 
+
+.fondo_card{
+    background-color: rgb(228, 226, 226);
+}   
+
 /*** Media Queries *************/
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -179,9 +183,15 @@ background-color: gray;
         border-width: 1px;
         border-color:gray;
         border-style: solid;
-        border-radius: 20px;
+        /* border-radius: 20px; */
         height: 340px;
         width: 340px;
+    }
+
+    main{
+        display: flex;
+        flex-flow:wrap;
+        justify-content:space-evenly;
     }
 }
 
@@ -190,7 +200,16 @@ background-color: gray;
 
     .menu {
         background-color: rgb(24, 3, 50);
+    
     }
+
+    main{
+        display: flex;
+        flex-flow:wrap;
+        justify-content:space-evenly;
+    }
+
+    
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -201,12 +220,13 @@ background-color: gray;
         
     }
 
+   
     .img_productos{
 
         border-width: 1px;
         border-color:gray;
         border-style: solid;
-        border-radius: 20px;
+        /* border-radius: 20px; */
         height: 300px;
         width: 300px;
         align-items: center;
@@ -215,7 +235,6 @@ background-color: gray;
     }
 
     main{
-
         display: flex;
         flex-flow:wrap;
         justify-content:space-evenly;
@@ -232,6 +251,13 @@ background-color: gray;
         flex-direction: column;
 
     }
+
+    
+    main{
+        display: flex;
+        flex-flow:wrap;
+        justify-content:space-evenly;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -243,6 +269,12 @@ background-color: gray;
        /* height: 100px;*/
         flex-direction: column;
     }
+    
+    main{
+        display: flex;
+        flex-flow:wrap;
+        justify-content:space-evenly;
+    }
 
 }
 
@@ -251,5 +283,12 @@ background-color: gray;
 
     .menu {
         background-color: grey;
+    }
+
+    
+    main{
+        display: flex;
+        flex-flow:wrap;
+        justify-content:space-evenly;
     }
 }
