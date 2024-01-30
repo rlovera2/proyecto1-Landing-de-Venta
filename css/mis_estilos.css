@@ -35,10 +35,10 @@ a:active {
  .logo{
     border: 2px;
    /* border-color: rgb(5, 5, 66) ;*/
-    border-color: gray;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 10px;
+    /* border-color: gray; */
+    /* border-style: solid; */
+    /* border-width: 2px; */
+    /* border-radius: 10px; */
     height: 94px;
     width:  94px;
 
@@ -198,10 +198,10 @@ background-color: gray;
 /* X-Large devices (large desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
 
-    .menu {
+    /* .menu {
         background-color: rgb(24, 3, 50);
     
-    }
+    } */
 
     main{
         display: flex;
@@ -215,10 +215,10 @@ background-color: gray;
 /* Large devices (desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
 
-    .menu {
+    /* .menu {
         background-color: rgb(47, 0, 255);   
         
-    }
+    } */
 
    
     .img_productos{
@@ -244,13 +244,13 @@ background-color: gray;
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
 
-    .menu {
+    /* .menu {
         background-color: rgb(58, 66, 114);
         flex-flow:wrap;
         justify-content:space-evenly;
         flex-direction: column;
 
-    }
+    } */
 
     
     main{
@@ -264,11 +264,11 @@ background-color: gray;
 @media only screen and (max-width: 576px) {
 
      
-    .menu {
+    /* .menu {
         background-color: blue;
-       /* height: 100px;*/
+        height: 100px;
         flex-direction: column;
-    }
+    } */
     
     main{
         display: flex;
@@ -281,9 +281,9 @@ background-color: gray;
 /*X-Small devices (portrait phones, less than 576px)*/
 @media only screen and (max-width: 320px) {
 
-    .menu {
+    /* .menu {
         background-color: grey;
-    }
+    } */
 
     
     main{
