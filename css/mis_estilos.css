@@ -67,7 +67,7 @@ background-color: gray;
 .menu{
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 10px;
     background-color: rgb(5, 5, 66);
     font-size: medium;
