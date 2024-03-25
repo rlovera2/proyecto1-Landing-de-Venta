@@ -23,17 +23,61 @@
 </script>
 </head>
 <body class="margenes">
-   <header>
-<div class="menu">
-    <a href="index.html">
+   <header class="menu">
+    <nav
+    class="navbar navbar-expand-lg menu"
+    data-bs-theme="dark"
+  >
+    <div class="container" height="auto" width="500px">
+      <a class="navbar-brand" href="/">
+        <img src="./img/icono_mouse.jpg" alt="Icono Mouse Pad" class="logo">
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon" >
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          
+            <a href="#sec_productos" class="nav-link active">
+                PRODUCTOS
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#sec_nosotros" class="nav-link active">
+              NOSOTROS
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#sec_contactenos" class="nav-link active">
+              CONTACTENOS
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- <a href="index.html">
     <img src="./img/icono_mouse.jpg" alt="Icono Mouse Pad" class="logo">
 </a>
     <a href="#">Productos</a> 
     <a href="#">Nosotros</a> 
-    <a href="#">Contactenos</a>
+    <a href="#">Contactenos</a> -->
 </div>
     </header>
 
+<a name="sec_productos"></a>
 <main class="contenedor">
   
 
@@ -94,16 +138,20 @@
 
 </section>
 
-
+<a name="sec_contactenos"></a>
    <footer class="contenedor_footer">
+
+    <div class="elemento_footer">
+      <a href="#" ><img src="./img/facebook.jpg" alt="Facebook" class="imgRedesSociales">Facebook</a>
+    </div>
     
-    <a href="#" ><img src="./img/facebook.jpg" alt="Facebook" class="imgRedesSociales">Facebook</a> 
     <a href="#" ><img src="./img/instagram.jpg" alt="Instagram" class="imgRedesSociales">Instagram</a> 
     <a href="#" ><img src="./img/whatsapp.jpg" alt="WhatSapp" class="imgRedesSociales">WhatSapp</a>
 
    </footer>
 
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
