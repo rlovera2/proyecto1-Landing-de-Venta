@@ -82,6 +82,17 @@ background-color: gray;
     width: auto;    
 }
 
+.texto_Principal{
+    align-items:center;
+    align-content: center;
+    background-color: #4945ff;
+    color:#ffffff;
+    padding: 15px;
+    width: 75%;
+    height: 50%;
+   /* height: 50%; */
+   border-radius: 4px;
+}
 
 .contenedor{
     display: flex;
